@@ -3,8 +3,8 @@ require "language/node"
 class GhManagerCli < Formula
   desc "Interactive CLI to manage GitHub repositories"
   homepage "https://github.com/wiiiimm/gh-manager-cli"
-  url "https://registry.npmjs.org/gh-manager-cli/-/gh-manager-cli-1.30.0.tgz"
-  sha256 "e832833e6c42b3972d1da8a6415e54405833aaa068f6bc51631218ecab8f5bcb"
+  url "https://registry.npmjs.org/gh-manager-cli/-/gh-manager-cli-1.31.0.tgz"
+  sha256 "a8e74efd2041f7165c776b2ff9394cb74ff577b023a88f88b4e52667aca6fb6c"
   license "MIT"
 
   depends_on "node"
