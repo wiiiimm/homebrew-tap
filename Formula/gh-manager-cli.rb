@@ -4,7 +4,7 @@ class GhManagerCli < Formula
   desc "Interactive CLI to manage GitHub repositories"
   homepage "https://github.com/wiiiimm/gh-manager-cli"
   url "https://registry.npmjs.org/gh-manager-cli/-/gh-manager-cli-1.30.0.tgz"
-  sha256 "b01edeb16b104fab9dcf58c24ba5d1f96e524e08051664cec9aa5eca3ab27be9"
+  sha256 "e832833e6c42b3972d1da8a6415e54405833aaa068f6bc51631218ecab8f5bcb"
   license "MIT"
 
   depends_on "node"
