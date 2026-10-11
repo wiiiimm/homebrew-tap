@@ -10,34 +10,30 @@ brew tap wiiiimm/tap
 
 ## Available Formulae
 
-### gh-manager-cli
+### ra2mp3
 
-Interactive terminal UI for managing GitHub repositories.
+Convert RealAudio (.ra/.ram/.rm) files to MP3 format using FFmpeg.
 
 ```bash
 # Install
-brew install gh-manager-cli
+brew install ra2mp3
 
 # Or install directly without tapping
-brew install wiiiimm/tap/gh-manager-cli
+brew install wiiiimm/tap/ra2mp3
 ```
 
 **Features:**
-- Browse and manage personal GitHub repositories
-- Sort, filter, and search repositories
-- Archive/unarchive and delete repositories
-- Sync forks with upstream
-- Organization support
+- Converts .ra, .ram, and .rm files to MP3
+- Powered by FFmpeg (installed automatically as a dependency)
 
 **Links:**
-- [GitHub Repository](https://github.com/wiiiimm/gh-manager-cli)
-- [npm Package](https://www.npmjs.com/package/gh-manager-cli)
+- [GitHub Repository](https://github.com/wiiiimm/ra2mp3)
 
 ## Updating
 
 ```bash
 brew update
-brew upgrade gh-manager-cli
+brew upgrade ra2mp3
 ```
 
 ## Troubleshooting
@@ -45,10 +41,10 @@ brew upgrade gh-manager-cli
 If you encounter issues:
 
 ```bash
-brew uninstall gh-manager-cli
+brew uninstall ra2mp3
 brew untap wiiiimm/tap
 brew tap wiiiimm/tap
-brew install gh-manager-cli
+brew install ra2mp3
 ```
 
 ## License
